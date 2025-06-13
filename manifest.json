@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Google Forms Auto Filler",
+  "version": "1.0",
+  "description": "Automatically fills Google Forms using AI API responses",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://docs.google.com/*",
+    "http://localhost/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://docs.google.com/forms/d/*/viewform*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Google Forms Auto Filler"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["injected.js"],
+      "matches": ["https://docs.google.com/*"]
+    }
+  ]
+}

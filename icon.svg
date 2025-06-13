@@ -1,0 +1,41 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="58" fill="#4285f4" stroke="#3367d6" stroke-width="4"/>
+  
+  <!-- Form/document shape -->
+  <rect x="32" y="28" width="48" height="60" rx="4" fill="white" stroke="#e0e0e0" stroke-width="1"/>
+  
+  <!-- Form lines -->
+  <line x1="38" y1="38" x2="68" y2="38" stroke="#5f6368" stroke-width="2" stroke-linecap="round"/>
+  <line x1="38" y1="46" x2="74" y2="46" stroke="#5f6368" stroke-width="2" stroke-linecap="round"/>
+  <line x1="38" y1="54" x2="62" y2="54" stroke="#5f6368" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Radio buttons -->
+  <circle cx="40" cy="64" r="3" fill="none" stroke="#5f6368" stroke-width="1.5"/>
+  <circle cx="40" cy="72" r="3" fill="none" stroke="#5f6368" stroke-width="1.5"/>
+  <circle cx="40" cy="80" r="3" fill="#4285f4" stroke="#4285f4" stroke-width="1.5"/>
+  
+  <!-- Option text -->
+  <line x1="48" y1="64" x2="70" y2="64" stroke="#5f6368" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="48" y1="72" x2="66" y2="72" stroke="#5f6368" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="48" y1="80" x2="72" y2="80" stroke="#5f6368" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- Robot/AI indicator -->
+  <circle cx="88" cy="48" r="16" fill="#34a853"/>
+  
+  <!-- Robot face -->
+  <circle cx="84" cy="44" r="2" fill="white"/>
+  <circle cx="92" cy="44" r="2" fill="white"/>
+  <rect x="86" y="50" width="4" height="2" rx="1" fill="white"/>
+  
+  <!-- Robot antennas -->
+  <line x1="82" y1="34" x2="82" y2="28" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  <line x1="94" y1="34" x2="94" y2="30" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="82" cy="28" r="1.5" fill="white"/>
+  <circle cx="94" cy="30" r="1.5" fill="white"/>
+  
+  <!-- Magic sparkles -->
+  <path d="M96 72 L98 76 L102 74 L98 78 Z" fill="#fbbc04"/>
+  <path d="M20 20 L21 23 L24 22 L21 25 Z" fill="#fbbc04"/>
+  <path d="M108 20 L109 23 L112 22 L109 25 Z" fill="#fbbc04"/>
+</svg>
